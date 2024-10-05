@@ -1,0 +1,35 @@
+# Ignorar archivos y carpetas comunes
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editor
+*.swp
+*.swo
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Archivos de compilación
+*.pyc
+*.pyo
+__pycache__/
+
+# Directorios de caché
+cache/
+*.log
+
+# Archivos de base de datos
+*.sqlite3
+*.db
+
+# Archivos de prueba y cobertura
+.coverage
+nosetests.xml
+*.cover
+*.py,cover
+
+# Archivos propios
+utility/
